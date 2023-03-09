@@ -1,0 +1,112 @@
+.background1 {
+  margin: -16px -8px 0px;
+  padding: 20px;
+  background-color: black;
+}
+
+/* .background2 {
+  background-color: blue;
+} */
+
+.header {
+  margin-left: 20%;
+  margin-right: 20%;
+  /* background-color: blueviolet; */
+}
+
+.data-box-margin {
+  padding-top: 100px;
+  margin-right: 8%;
+  margin-left: 17%;
+}
+
+.height {
+  height: 65vh;
+}
+
+.title {
+  text-align: center;
+  color: #6ea5ac;
+  font-family: sans-serif;
+  /* background-color: aliceblue; */
+  width: 25%;
+  display: inline-block;
+  font-weight: lighter;
+}
+
+.background1 .title {
+  padding-top: 180px;
+}
+
+.image-container {
+  height: 100%;
+  width: 74%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+img {
+  height: 115%;
+  width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.button {
+  font-family: sans-serif;
+  background-color: #157b899d;
+  border-radius: 5px;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+  font-family: Verdana;
+}
+
+.title2 {
+  text-align: left;
+  font-weight: 900;
+  font-family: sans-serif;
+  color: black;
+  margin-right: 20px;
+}
+
+.information-container {
+  /* margin-left: 25px; */
+  width: 38%;
+  color: #2e4245;
+  vertical-align: top;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  margin-left: -10px;
+}
+
+.achievements {
+  color: #2e4245;
+  vertical-align: top;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 35px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.center {
+  font-size: 16px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: "\2014";
+  position: absolute;
+  margin-left: -20px;
+}
