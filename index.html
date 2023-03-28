@@ -3,6 +3,10 @@
   <head>
     <title>Tribute Page</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/60ea6d3708.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <main class="background1">
@@ -10,18 +14,22 @@
         <div class="title">
           <h1>Elon Musk</h1>
           <p>Genius, Billionaire, Playboy</p>
-          <button type="submit" class="button">
-            <a href="https://en.wikipedia.org/wiki/Elon_Musk" target="_blank"
-              >Wikipedia</a
-            >
-          </button>
-          <button type="submit" class="button">
-            <a
-              href="https://www.google.com/search?q=elon+musk&source=lnms&tbm=nws&sa=X&ved=2ahUKEwjOouOPqs79AhXqRmwGHTrGD3AQ0pQJegQIBhAC&biw=1707&bih=842&dpr=1.13"
-              target="_blank"
-              >Latest News</a
-            >
-          </button>
+          <div id="button-container">
+            <div>
+              <a href="https://en.wikipedia.org/wiki/Elon_Musk" target="_blank"
+                ><i class="fa-brands fa-wikipedia-w" style="color: #ffffff"></i>
+                <span> wiki</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.google.com/search?q=elon+musk&source=lnms&tbm=nws&sa=X&ved=2ahUKEwjOouOPqs79AhXqRmwGHTrGD3AQ0pQJegQIBhAC&biw=1707&bih=842&dpr=1.13"
+                target="_blank"
+                ><i class="fa-regular fa-newspaper" style="color: #ffffff"></i
+                ><span> news</span></a
+              >
+            </div>
+          </div>
         </div>
         <div class="image-container">
           <img src="images/elon-musk.jpg" />

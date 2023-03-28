@@ -4,14 +4,9 @@
   background-color: black;
 }
 
-/* .background2 {
-  background-color: blue;
-} */
-
 .header {
   margin-left: 20%;
   margin-right: 20%;
-  /* background-color: blueviolet; */
 }
 
 .data-box-margin {
@@ -28,7 +23,6 @@
   text-align: center;
   color: #6ea5ac;
   font-family: sans-serif;
-  /* background-color: aliceblue; */
   width: 25%;
   display: inline-block;
   font-weight: lighter;
@@ -52,16 +46,28 @@ img {
   overflow: hidden;
 }
 
-.button {
-  font-family: sans-serif;
-  background-color: #157b899d;
-  border-radius: 5px;
+#button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
 }
 
-.button a {
+#button-container div {
+  padding-top: 5px;
+  height: 25px;
+  width: 100px;
+  background-color: black;
+  transition: border 5s;
+}
+
+#button-container div:hover {
+  border: 1px white solid;
+}
+
+#button-container div a {
   text-decoration: none;
-  color: black;
-  font-family: Verdana;
+  color: #a0bbbe;
 }
 
 .title2 {
