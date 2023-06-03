@@ -155,3 +155,15 @@ ul {
   list-style: inside;
   line-height: 30px;
 }
+
+/* Audio div */
+
+.sticky {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+
+audio {
+  width: 25px;
+}
